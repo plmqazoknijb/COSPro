@@ -20,13 +20,11 @@ def avg_list(scores):
 
 #짝수인 것만 세기
 def count_even(scores):
-    count=0
-    result=[]
+    count_num=0
     for i in scores:
         if i % 2 == 0:
-            count+=1
-            result.append(i)
-    return(result,count)
+            count_num+=1
+    return(count_num)
 
 #N개의 0을 가진 리스트 만들기
 def make_list(n):
