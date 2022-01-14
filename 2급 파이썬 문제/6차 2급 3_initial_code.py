@@ -4,6 +4,15 @@
 def solution(people):
     #여기에 코드를 작성해주세요.
     answer = [0 for _ in range(4)]
+    for i in people:
+        if i < 95:
+            answer[0] += 1
+        elif 95 <= i <100:
+            answer[1] += 1
+        elif 100 <= i <105:
+            answer[2] += 1
+        elif i >= 105:
+            answer[3] += 1
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
