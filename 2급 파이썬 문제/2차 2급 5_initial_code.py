@@ -1,11 +1,11 @@
 def solution(attack, recovery, hp):
     count = 0
     while(True):
-        count += @@@
-        hp -= @@@
+        count += 1
+        hp -= 30
         if hp <= 0:
-            @@@
-        hp += @@@
+            break
+        hp +=10
     return count
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
