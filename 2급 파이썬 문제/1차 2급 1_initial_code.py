@@ -3,7 +3,20 @@
 
 def solution(shirt_size):
     #Write code here.
-    answer = []
+    answer = [0,0,0,0,0,0]
+    for i in shirt_size:
+        if i == "XS":
+            answer[0] += 1
+        elif i == "S":
+            answer[1] += 1
+        elif i == "M":
+            answer[2] += 1
+        elif i == "L":
+            answer[3] +=1
+        elif i == "XL":
+            answer[4] += 1
+        elif i == "XXl":
+            answer[5] += 1
     return answer
 
 #The following is code to output testcase.

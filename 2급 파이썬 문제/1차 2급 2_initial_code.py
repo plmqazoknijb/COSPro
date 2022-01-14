@@ -4,6 +4,12 @@
 def solution(price, grade):
     #Write code here.
     answer = 0
+    if grade == "S":
+        answer = int(price - (price*0.05))
+    elif grade == "G":
+        answer = int(price - (price * 0.10))
+    elif grade == "V":
+        answer = int(price - (price * 0.15))
     return answer
 
 #The following is code to output testcase.
