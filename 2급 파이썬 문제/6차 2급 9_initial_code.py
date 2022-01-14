@@ -4,7 +4,7 @@ def solution(socks):
     for s in socks:
         count[s] += 1
     for c in count:
-        answer += (c % 2)
+        answer += (c // 2)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다. 아래에는 잘못된 부분이 없으니 위의 코드만 수정하세요.

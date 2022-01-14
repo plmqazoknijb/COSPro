@@ -1,7 +1,7 @@
 def solution(weight, boxes):
     answer = 0
     for x in boxes:
-        if @@@:
+        if x < weight - weight*0.1 or weight+weight*0.1 < x:
             answer += 1
     return answer
 
